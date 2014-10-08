@@ -102,6 +102,15 @@
                                     <rect key="frame" x="16" y="222" width="269" height="21"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxW-Bq-WBi">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="193" width="139" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -111,6 +120,7 @@
                                 <exclude reference="a6H-cH-3bt"/>
                                 <exclude reference="BQj-DA-JZo"/>
                                 <exclude reference="ZUx-Qq-3si"/>
+                                <exclude reference="pxW-Bq-WBi"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -120,12 +130,14 @@
                                 <include reference="a6H-cH-3bt"/>
                                 <include reference="BQj-DA-JZo"/>
                                 <include reference="ZUx-Qq-3si"/>
+                                <include reference="pxW-Bq-WBi"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="a6H-cH-3bt" id="vYN-59-FKj"/>
                         <outlet property="enterNameTextField" destination="Ufr-N3-g3b" id="Cwe-yZ-ziY"/>
+                        <outlet property="enterNamesLabel" destination="pxW-Bq-WBi" id="xtl-pD-Iab"/>
                         <outlet property="mailSent" destination="BQj-DA-JZo" id="bdt-tp-8hP"/>
                         <outlet property="messageLabel" destination="ZUx-Qq-3si" id="sMZ-eR-mpx"/>
                     </connections>
